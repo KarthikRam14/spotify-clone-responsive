@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.left{
+    background-color: black;
+    color: white;
+    padding-left: 2vh;
+    padding-top: 2vh;
+    width: max-content;
+}
+
+.margin-top{
+    margin-top: 5vh;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    margin-top: 2vh;
+}
+
+.padding-left{
+    padding-left: 2vh;
+}
+
+.img-small{
+    height: 3vh;
+    width: 3vh;
+}
