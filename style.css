@@ -3,23 +3,34 @@
     padding: 0;
 }
 
+.container{
+    display: flex;
+}
+
 .left{
     background-color: black;
     color: white;
-    padding-left: 2vh;
-    padding-top: 2vh;
+    padding: 1vw 2vw;
     width: max-content;
+    height: max-content;
 }
 
 .margin-top{
-    margin-top: 5vh;
+    margin-top: 1vw;
+}
+
+.fav{
+    margin-top: 2vw;
 }
 
 .flex{
     display: flex;
     align-items: center;
-    width: 20vw;
-    margin-top: 2vh;
+    width: max-content;
+}
+
+.install{
+    padding-top: 3vh;
 }
 
 .padding-left{
@@ -27,6 +38,57 @@
 }
 
 .img-small{
-    height: 3vh;
-    width: 3vh;
+    height: 1.5vw;
+    width: 1.5vw;
+}
+
+.p{
+    margin-top: 1vh;
+}
+
+.home{
+    background-color: #282828;
+    width: 100%;
+}
+
+.right{
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+
+.top{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.u{
+    height: 3vw;
+}
+
+.user{
+    height: 2.5vw;
+}
+
+.good-morning{
+    margin-top: 2vw;
+}
+
+.g-images{
+    height: 4vw;
+}
+
+.g{
+    width: 18vw;
+    background-color: #303030;
+    height: max-content;
+}
+
+.g-main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2vw;
+}
+
+.g-p p{
+    margin-left: 2vw;
 }
