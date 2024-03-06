@@ -5,6 +5,7 @@
 
 .container{
     display: flex;
+    /* justify-content: space-around; */
 }
 
 .left{
@@ -52,8 +53,9 @@
 }
 
 .right{
-    margin-left: 2vw;
-    margin-top: 1vw;
+    padding: 2vw 3vw 0vw 3vw;
+    color: white;
+    background-image: linear-gradient(#212121, #131313, #121212);
 }
 
 .top{
@@ -62,11 +64,11 @@
 }
 
 .u{
-    height: 3vw;
+    height: 2vw;
 }
 
 .user{
-    height: 2.5vw;
+    height: 2vw;
 }
 
 .good-morning{
@@ -86,9 +88,63 @@
 .g-main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2vw;
+    grid-gap: 1.5vw;
 }
 
 .g-p p{
     margin-left: 2vw;
+}
+
+.see-all{
+    text-align: right;
+}
+
+.grid{
+    margin-top: 1vw;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1vw;
+    text-align: center;
+}
+
+.shows{
+    margin-top: 2vw;
+}
+
+.shows-grid{
+    background-color: black;
+    padding: 1vw;
+}
+
+.grid-img{
+    height: 9vw;
+}
+
+.music-player{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #181818;
+    color: white;
+}
+
+.neffex{
+    height: 4vw;
+}
+
+.nef-p{
+    padding-left: 1vw;
+}
+
+.heart{
+    height: 2vw;
+    margin-left: 1vw;
+}
+
+.mid-player{
+    height: 4.5vw;
+}
+
+.right-player{
+    height: 1.5vw;
 }
