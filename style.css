@@ -63,11 +63,7 @@
     justify-content: space-between;
 }
 
-.u{
-    height: 2vw;
-}
-
-.user{
+.u, .user{
     height: 2vw;
 }
 
@@ -147,4 +143,14 @@
 
 .right-player{
     height: 1.5vw;
+}
+
+@media screen and (max-width: 1100px) {
+    .g{
+        border: 2px solid pink;
+    }
+
+    .u, .user{
+        height: 3vw;
+    }
 }
