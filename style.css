@@ -5,7 +5,6 @@
 
 .container{
     display: flex;
-    /* justify-content: space-around; */
 }
 
 .left{
@@ -145,12 +144,106 @@
     height: 1.5vw;
 }
 
-@media screen and (max-width: 1100px) {
+/* @media screen and (max-width: 1100px) {
     .g{
         border: 2px solid pink;
     }
 
     .u, .user{
         height: 3vw;
+    }
+} */
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        padding: 2vw;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    .left > *:not(:first-child){
+        display: flex;
+        justify-content: center;
+    }
+
+    .home{
+        background-color: none;
+        width: max-content;
+    }
+
+    .install{
+        display: flex;
+        justify-content: center;
+    }
+
+    .flex, .fav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-small,
+    .u {
+        height: 3vw;
+        width: 3vw;
+    }
+
+    .top{
+        /* width: 100%; */
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .user{
+        height: 5vw;
+    }
+
+    .u{
+        height: 5vw;
+        width: 10vw;
+    }
+
+    .grid-img, .heart, .mid-player, .right-player {
+        height: 6vw;
+    }
+
+    .g-main {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1vw;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 3vw;
+    }
+
+    .g{
+        margin: 5vw;
+        height: 7vw;
+    }
+
+    .g-images{
+        height: 7vw;
+    }
+
+    .shows-grid, .grid-img {
+        height: 8vw;
+    }
+
+    .shows{
+        margin-top: 8vw;
+    }
+
+    .music-player{
+        padding-top: 7vw;
+    }
+
+    .neffex{
+        height: 15vw;
     }
 }
